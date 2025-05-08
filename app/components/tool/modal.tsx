@@ -25,6 +25,7 @@ export default function Modal({ isOpen, onClose, children }: ModalProps) {
           {children}
         </div>
 
+
         {/* Footer */}
         <div className="modal-footer">
           <button onClick={onClose} className="modal-button">
